@@ -135,3 +135,30 @@ body {
     border-radius: 10px;
 }
 
+.quote-section {
+    height: 40vh;
+    background-color: #e5e7eb;
+    padding: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 60vw;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .author {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: end;
+}
+
