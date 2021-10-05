@@ -76,7 +76,7 @@ body {
     margin-bottom: 16px;
 }
 
-.description a {
+.sign-up {
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
@@ -85,12 +85,12 @@ body {
     border-radius: 5px;
 }
 
-.description a:hover {
-    background-color: #3b83f6b2;
+.sign-up:hover {
+    background-color: #2c5dac;
 }
 
 
-.description a:active {
+.sign-up:active {
     background-color: #3B82F6;
 }
 
@@ -162,3 +162,27 @@ body {
     text-align: end;
 }
 
+.action-section {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    flex: 1;
+    max-width: 1100px;
+    min-width: 120px;
+    padding: 32px 64px;
+    margin: auto 48px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-button a {
+    border: 2px solid #f9faf8;
+}
