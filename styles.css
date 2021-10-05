@@ -186,3 +186,12 @@ body {
 .action-button a {
     border: 2px solid #f9faf8;
 }
+
+.footer {
+    height: 10vh;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
