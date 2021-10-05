@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    background-color: #1f2937;
+    height: 60vh;
+    color: #f9faf8;
+    padding: 32px 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    gap: 16px;
+}
+
+.header li {
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.content div {
+    flex: 1;
+
+}
+
+.description  h1{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 4px;
+}
+
+.description p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 16px;
+}
+
+.description a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #3B82F6;
+    padding: 8px 32px;
+    border-radius: 5px;
+}
+
+.description a:hover {
+    background-color: #3b83f6b2;
+}
+
+
+.description a:active {
+    background-color: #3B82F6;
+}
+
+.image {
+    background-color: #6D747D;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.item-container {
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.item div {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3B82F6;
+    border-radius: 10px;
+}
+
